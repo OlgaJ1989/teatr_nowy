@@ -8,6 +8,29 @@ body {
     flex-direction: column;
 }
 
+.aboutUs {
+    text-align: center;
+}
+
+.aboutUs h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.headingFont {
+    font-size: 200%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
 /* Navbar */
 
 .navbar {
@@ -22,7 +45,7 @@ body {
 }
 
 #navLinks {
-    font-size: 150%;
+    font-size: 160%;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
