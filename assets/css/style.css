@@ -52,6 +52,10 @@ ul.no-bullets {
     font-style: normal;
 }
 
+#navLinks a {
+    text-decoration: none;
+}
+
 /* Footer */
 
 footer {
