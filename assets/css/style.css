@@ -26,10 +26,13 @@ body {
 }
 
 ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-  }
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
 
 /* Navbar */
 
@@ -54,6 +57,12 @@ ul.no-bullets {
 
 #navLinks a {
     text-decoration: none;
+}
+
+/*Carousel*/
+
+.carousel-item img {
+    margin: auto;
 }
 
 /* Footer */
