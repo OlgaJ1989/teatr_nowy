@@ -92,3 +92,17 @@ footer {
     margin: 1%;
     color: black;
 }
+
+/* Jumbotron */
+
+.jumbotron-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/1B2A7100.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
