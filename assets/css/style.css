@@ -2,10 +2,14 @@
 
 body {
     background-color: #ded4bd;
-    /* padding-top: 98px; */
+    padding-top: 148px; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+p, li {
+    font-size: 20px;
 }
 
 .aboutUs {
@@ -59,12 +63,6 @@ ul.no-bullets {
     text-decoration: none;
 }
 
-/*Carousel*/
-
-.carousel-item img {
-    margin: auto;
-}
-
 /* Footer */
 
 footer {
@@ -96,11 +94,35 @@ footer {
 /* Jumbotron */
 
 .jumbotron-container {
-    height: 80vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: url("../images/1B2A7100.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron-container-one {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/1B2A7054.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron-container-two {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/1B2A6576.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
