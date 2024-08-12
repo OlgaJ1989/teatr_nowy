@@ -2,7 +2,7 @@
 
 body {
     background-color: #ded4bd;
-    padding-top: 148px; 
+    padding-top: 148px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,8 @@ p {
     color: #676869;
 }
 
-p, li {
+p,
+li {
     font-size: 20px;
 }
 
@@ -146,4 +147,48 @@ a {
 
 iframe {
     width: 100%;
+}
+
+/*Media queries*/
+
+@media (max-width: 400px) {
+    .jumbotron-container {
+        background: url("../images/1B2A6631.jpg") no-repeat fixed;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .jumbotron-container-one {
+        background: url("../images/1B2A6521.jpg") no-repeat fixed;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .jumbotron-container-two {
+        background: url("../images/DSC_3629.jpg") no-repeat fixed;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
