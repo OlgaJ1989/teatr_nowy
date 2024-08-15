@@ -151,7 +151,7 @@ iframe {
 
 /*Media queries*/
 
-@media (max-width: 400px) {
+@media (max-width: 1025px) {
     .jumbotron-container {
         background: url("../images/1B2A6631.jpg") no-repeat fixed;
         height: 50vh;
@@ -165,7 +165,7 @@ iframe {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1025px) {
     .jumbotron-container-one {
         background: url("../images/1B2A6521.jpg") no-repeat fixed;
         height: 50vh;
@@ -179,9 +179,9 @@ iframe {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1025px) {
     .jumbotron-container-two {
-        background: url("../images/DSC_3629.jpg") no-repeat fixed;
+        background: url("../images/DSC_3621.jpg") no-repeat fixed;
         height: 50vh;
         display: flex;
         align-items: center;
